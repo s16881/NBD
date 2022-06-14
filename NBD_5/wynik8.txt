@@ -1,0 +1,15 @@
+HTTP/1.1 201 Created
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VVqkOEUpkzGNlaLCRvcOXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Location: /buckets/s16881/keys/Cxh9uc4essTGaDZyw8bt2RIqjxJ
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 17:08:16 GMT
+ETag: "Sd7ZOXj9pjR9N1v54LYld"
+Date: Tue, 14 Jun 2022 17:08:16 GMT
+Content-Type: application/json
+Content-Length: 29
+
+{
+  "brand": "Aston Martin"
+}

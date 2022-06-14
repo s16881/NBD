@@ -1,0 +1,99 @@
+Zad1 
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Ford",
+	  "model": "Kuga",
+	  "year": 2022,
+	  "isRented": false,
+	  "price": 2000
+	}' http://localhost:8098/buckets/s16881/keys/kuga?returnbody=true
+
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Alfa Romeo",
+	  "model": "Stelvio",
+	  "year": 2021,
+	  "isRented": false,
+	  "price": 3400
+	}' http://localhost:8098/buckets/s16881/keys/stelvio?returnbody=true
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Toyota",
+	  "model": "Yaris",
+	  "year": 2022,
+	  "isRented": true,
+	  "price": 700
+	}' http://localhost:8098/buckets/s16881/keys/yaris?returnbody=true
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Citroen",
+	  "model": "C5",
+	  "year": 2016,
+	  "isRented": true,
+	  "price": 450
+	}' http://localhost:8098/buckets/s16881/keys/c5?returnbody=true
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Porshe",
+	  "model": "Cayenne",
+	  "year": 2022,
+	  "isRented": true,
+	  "price": 11000
+	}' http://localhost:8098/buckets/s16881/keys/cayenne?returnbody=true
+
+Zad2
+
+	curl -i http://localhost:8098/buckets/s16881/keys/kuga
+
+Zad3
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Toyota",
+	  "model": "Yaris",
+	  "year": 2022,
+	  "isRented": true,
+	  "price": 700,
+	  "isHybrid": true
+	}' http://localhost:8098/buckets/s16881/keys/yaris?returnbody=true
+
+Zad4
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Alfa Romeo",
+	  "model": "Stelvio",
+	  "year": 2021,
+	  "price": 3400
+	}' http://localhost:8098/buckets/s16881/keys/stelvio?returnbody=true
+
+Zad5
+
+	curl -i -XPUT -H "Content-Type: application/json" -d '{
+	  "brand": "Alfa Romeo",
+	  "model": "Stelvio",
+	  "year": 2021,
+	  "price": 4300
+	}' http://localhost:8098/buckets/s16881/keys/stelvio?returnbody=true
+
+Zad6
+
+	curl -i -XDELETE http://localhost:8098/buckets/s16881/keys/yaris
+
+Zad7
+
+	curl -i http://localhost:8098/buckets/s16881/keys/yaris
+
+Zad8
+
+	curl -i -XPOST -H "Content-Type: application/json" -d '{
+	  "brand": "Aston Martin"
+	}' http://localhost:8098/buckets/s16881/keys?returnbody=true
+
+Zad9
+
+	curl -i http://localhost:8098/buckets/s16881/keys?keys=true
+	curl -i http://localhost:8098/buckets/s16881/keys/Cxh9uc4essTGaDZyw8bt2RIqjxJ
+
+Zad10
+
+	curl -i -XDELETE http://localhost:8098/buckets/s16881/keys/Cxh9uc4essTGaDZyw8bt2RIqjxJ
+

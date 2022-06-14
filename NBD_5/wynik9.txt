@@ -1,0 +1,23 @@
+HTTP/1.1 200 OK
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Date: Tue, 14 Jun 2022 17:08:40 GMT
+Content-Type: application/json
+Content-Length: 72
+
+{"keys":["cayenne","stelvio","c5","kuga","Cxh9uc4essTGaDZyw8bt2RIqjxJ"]}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VVqkOEUpkzGNlaLCRvcOXBQA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 17:09:20 GMT
+ETag: "Sd7ZOXj9pjR9N1v54LYld"
+Date: Tue, 14 Jun 2022 17:11:47 GMT
+Content-Type: application/json
+Content-Length: 29
+
+{
+  "brand": "Aston Martin"
+}

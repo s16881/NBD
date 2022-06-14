@@ -1,0 +1,18 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VofECIpTImMfK4GUme4cvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 16:41:46 GMT
+ETag: "59YbCDjaI9ogSSUv1mERc9"
+Date: Tue, 14 Jun 2022 16:42:25 GMT
+Content-Type: application/json
+Content-Length: 94
+
+{
+  "brand": "Ford",
+  "model": "Kuga",
+  "year": 2022,
+  "isRented": false,
+  "price": 2000
+}

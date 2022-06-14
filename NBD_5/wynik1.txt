@@ -1,0 +1,97 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VofECIpTIlMfK4G8le4cvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 16:36:39 GMT
+ETag: "26gDLxeoDpesO3fQuj2FUG"
+Date: Tue, 14 Jun 2022 16:58:55 GMT
+Content-Type: application/json
+Content-Length: 94
+
+{
+  "brand": "Ford",
+  "model": "Kuga",
+  "year": 2022,
+  "isRented": false,
+  "price": 2000
+}
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VdCIQIpTIksfKUG8pe4cvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 16:36:52 GMT
+ETag: "5oL69MiPb0SkReHQEg5E41"
+Date: Tue, 14 Jun 2022 16:34:25 GMT
+Content-Type: application/json
+Content-Length: 103
+
+{
+  "brand": "Alfa Romeo",
+  "model": "Stelvio",
+  "year": 2021,
+  "isRented": false,
+  "price": 3400
+}
+
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VzswGEUpkyWNlOGkle4cvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 16:37:00 GMT
+ETag: "4A0ApuvYjIQHdTQQwJ0J4S"
+Date: Tue, 14 Jun 2022 17:00:57 GMT
+Content-Type: application/json
+Content-Length: 95
+
+{
+  "brand": "Toyota",
+  "model": "Yaris",
+  "year": 2022,
+  "isRented": true,
+  "price": 700
+}
+
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8V4f8JIpTIlMfK8M5K9g5fFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 16:37:20 GMT
+ETag: "3yCpMZ5QXoQzkdSRpPaXAi"
+Date: Tue, 14 Jun 2022 17:01:34 GMT
+Content-Type: application/json
+Content-Length: 93
+
+{
+  "brand": "Citroen",
+  "model": "C5",
+  "year": 2016,
+  "isRented": true,
+  "price": 450
+}
+
+
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VutMJIpTIlMfKIGAte4cvCwA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 17:02:08 GMT
+ETag: "3LiNruamjhTW45oqYkBh2I"
+Date: Tue, 14 Jun 2022 16:37:38 GMT
+Content-Type: application/json
+Content-Length: 99
+
+{
+  "brand": "Porshe",
+  "model": "Cayenne",
+  "year": 2022,
+  "isRented": true,
+  "price": 11000
+}

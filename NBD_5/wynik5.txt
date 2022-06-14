@@ -1,0 +1,17 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8+xkWvj8VdCIQIpTInMfKcNtC9g5fFgA=
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.9 (cafe not found)
+Link: </buckets/s16881>; rel="up"
+Last-Modified: Tue, 14 Jun 2022 16:52:43 GMT
+ETag: "5URECC1gWDBGuNsMclK4E8"
+Date: Tue, 14 Jun 2022 16:52:43 GMT
+Content-Type: application/json
+Content-Length: 82
+
+{
+  "brand": "Alfa Romeo",
+  "model": "Stelvio",
+  "year": 2021,
+  "price": 4300
+}
